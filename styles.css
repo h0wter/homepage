@@ -28,6 +28,19 @@ body {
   justify-content: space-between;
 }
 
+.contacts-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.avatar-wrapper {
+    align-items: center;
+}
+
+.contacts-right {
+    align-items: end;
+}
+
 .fv {
   display: flex;
   flex-direction: column;
@@ -43,12 +56,15 @@ body {
 }
 
 .resume__block {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
   border-bottom: 3px solid var(--border-color);
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
+
+.additional__block {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
 
 @media screen and (max-width: 576px) {
   .main-info,
