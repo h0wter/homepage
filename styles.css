@@ -166,6 +166,10 @@ body {
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
 }
 
 .experiences {
